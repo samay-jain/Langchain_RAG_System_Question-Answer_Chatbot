@@ -1,8 +1,6 @@
 # LangChain Q&A Chatbot with OpenAI & Ollama
 
-This project demonstrates how to build a document-based Question Answering (QA) chatbot using [LangChain](https://www.langchain.com/), integrated with either **OpenAI** or **Ollama** for the LLM backend.
-
-It scrapes and indexes content from URLs and enables conversational Q&A using vector search + LLM.
+This project demonstrates how to build a question-answering chatbot that extracts real content from websites, stores it using vector embeddings (ChromaDB), and answers natural language queries. Users can choose between using OpenAI's GPT models or running local inference with Ollama (e.g., LLaMA 3.2). Ideal for learning retrieval-augmented generation (RAG), vector databases, and multi-LLM integration using LangChain.
 
 ---
 
@@ -39,4 +37,3 @@ Sources:
 - https://beebom.com/what-is-nft-explained/
 
 ---
-
